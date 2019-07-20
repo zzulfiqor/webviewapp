@@ -18,6 +18,8 @@ public class MainActivity extends AppCompatActivity {
         view.getSettings().setJavaScriptEnabled(true);
         view.setWebViewClient(new MyBrowser());
 //        view.loadUrl("https://zzulfiqor.github.io/");
+
+        //masukkan alamat yang diinginkan disini
         view.loadUrl("http://hadits.santrisoft.com/");
 
 
